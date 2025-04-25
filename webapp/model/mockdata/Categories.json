@@ -1,0 +1,9 @@
+{
+    "d": {
+      "results": [
+        { "CategoryID": 1, "CategoryName": "Beverages", "Description": "Soft drinks" },
+        { "CategoryID": 2, "CategoryName": "Condiments", "Description": "Sweet and savory sauces" }
+      ]
+    }
+  }
+  

@@ -2,22 +2,28 @@
   "d": {
     "results": [
       {
-        "ProductID": "1",
-        "ProductName": "Product 1",
-        "Category": "Category 1",
-        "Price": 100
+        "ProductID": 11,
+        "ProductName": "Queso Cabrales",
+        "SupplierID": 5,
+        "CategoryID": 4,
+        "QuantityPerUnit": "1 kg pkg.",
+        "UnitPrice": 21.0,
+        "UnitsInStock": 22,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 30,
+        "Discontinued": false
       },
       {
-        "ProductID": "2",
-        "ProductName": "Product 2",
-        "Category": "Category 2",
-        "Price": 150
-      },
-      {
-        "ProductID": "3",
-        "ProductName": "Product 3",
-        "Category": "Category 3",
-        "Price": 200
+        "ProductID": 42,
+        "ProductName": "Singaporean Hokkien Fried Mee",
+        "SupplierID": 5,
+        "CategoryID": 5,
+        "QuantityPerUnit": "32 - 1 kg pkgs.",
+        "UnitPrice": 14.0,
+        "UnitsInStock": 26,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 0,
+        "Discontinued": false
       }
     ]
   }

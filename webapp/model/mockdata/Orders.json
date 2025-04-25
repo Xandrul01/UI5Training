@@ -1,0 +1,21 @@
+{
+    "d": {
+      "results": [
+        {
+          "OrderID": 10248,
+          "CustomerID": "VINET",
+          "EmployeeID": 5,
+          "OrderDate": "/Date(836418600000)/",
+          "ShipCountry": "France"
+        },
+        {
+          "OrderID": 10249,
+          "CustomerID": "TOMSP",
+          "EmployeeID": 6,
+          "OrderDate": "/Date(836505000000)/",
+          "ShipCountry": "Germany"
+        }
+      ]
+    }
+  }
+  

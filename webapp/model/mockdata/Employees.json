@@ -1,0 +1,25 @@
+{
+    "d": {
+      "results": [
+        {
+          "EmployeeID": 1,
+          "LastName": "Davolio",
+          "FirstName": "Nancy",
+          "Title": "Sales Representative",
+          "HireDate": "/Date(836418600000)/",
+          "City": "Seattle",
+          "Country": "USA"
+        },
+        {
+          "EmployeeID": 2,
+          "LastName": "Fuller",
+          "FirstName": "Andrew",
+          "Title": "Vice President, Sales",
+          "HireDate": "/Date(829460400000)/",
+          "City": "Tacoma",
+          "Country": "USA"
+        }
+      ]
+    }
+  }
+  

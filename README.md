@@ -14,13 +14,11 @@ Either [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) for depende
 
 ## Preparation
 
-Use `npm` (or `yarn`) to install the dependencies:
+Use `npm` to install the dependencies:
 
 ```sh
 npm install
 ```
-
-(To use yarn, just do `yarn` instead.)
 
 ## Run the App
 
@@ -31,8 +29,6 @@ npm start
 ```
 
 As shown in the terminal after executing this command, the app is then running on http://localhost:8080/index.html. A browser window with this URL should automatically open.
-
-(When using yarn, do `yarn start` instead.)
 
 ## Debug the App
 
@@ -46,6 +42,7 @@ Execute the following command to build the project and get an app that can be de
 
 ```sh
 npm run build
+npm run build:ts
 ```
 
 The result is placed into the `dist` folder. To start the generated package, just run

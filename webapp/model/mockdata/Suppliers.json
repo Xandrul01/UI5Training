@@ -1,0 +1,30 @@
+
+{
+    "d": {
+      "results": [
+        {
+          "SupplierID": 5,
+          "CompanyName": "Cooperativa de Quesos 'Las Cabras'",
+          "ContactName": "Antonio del Valle Saavedra",
+          "ContactTitle": "Export Manager",
+          "Address": "Calle del Rosal 4",
+          "City": "Oviedo",
+          "PostalCode": "33007",
+          "Country": "Spain",
+          "Phone": "(98) 598 76 54"
+        },
+        {
+          "SupplierID": 6,
+          "CompanyName": "Mayumi's",
+          "ContactName": "Mayumi Ohno",
+          "ContactTitle": "Marketing Representative",
+          "Address": "92 Setsuko Chuo-ku",
+          "City": "Osaka",
+          "PostalCode": "545",
+          "Country": "Japan",
+          "Phone": "(06) 431-7877"
+        }
+      ]
+    }
+  }
+  
