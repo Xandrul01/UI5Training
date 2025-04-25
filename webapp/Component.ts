@@ -1,6 +1,7 @@
 import UIComponent from "sap/ui/core/UIComponent";
 import models from "./model/models";
 import Device from "sap/ui/Device";
+import { initMockServer } from "./model/mockServer";
 
 /**
  * @namespace ui5training
@@ -14,6 +15,11 @@ export default class Component extends UIComponent {
 	private contentDensityClass: string;
 
 	public init(): void {
+
+		if (location.hostname === "localhost") {
+			initMockServer();
+		}
+		
 		// call the base component's init function
 		super.init();
 
@@ -22,6 +28,8 @@ export default class Component extends UIComponent {
 
 		// create the views based on the url/hash
 		this.getRouter().initialize();
+
+		
 	}
 
 	/**

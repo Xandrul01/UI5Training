@@ -1,0 +1,24 @@
+{
+  "d": {
+    "results": [
+      {
+        "ProductID": "1",
+        "ProductName": "Product 1",
+        "Category": "Category 1",
+        "Price": 100
+      },
+      {
+        "ProductID": "2",
+        "ProductName": "Product 2",
+        "Category": "Category 2",
+        "Price": 150
+      },
+      {
+        "ProductID": "3",
+        "ProductName": "Product 3",
+        "Category": "Category 3",
+        "Price": 200
+      }
+    ]
+  }
+}

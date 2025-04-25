@@ -1,21 +1,35 @@
 {
 	"compilerOptions": {
-		"target": "es2023",
-		"module": "es2022",
-		"moduleResolution": "node",
+		"target": "ES6",
+		"module": "ES6",
+		"moduleResolution": "Node",
 		"skipLibCheck": true,
 		"allowJs": true,
 		"strict": true,
 		"strictNullChecks": false,
 		"strictPropertyInitialization": false,
 		"rootDir": "./webapp",
-		"types": ["@sapui5/types", "@types/qunit"],
+		"outDir": "./dist",
+		"types": [
+			"@sapui5/types",
+			"@types/qunit"
+		],
 		"paths": {
-			"ui5training/*": ["./webapp/*"],
-			"unit/*": ["./webapp/test/unit/*"],
-			"integration/*": ["./webapp/test/integration/*"]
+			"ui5training/*": [
+				"./webapp/*"
+			],
+			"unit/*": [
+				"./webapp/test/unit/*"
+			],
+			"integration/*": [
+				"./webapp/test/integration/*"
+			]
 		}
 	},
-	"exclude": ["./webapp/test/e2e/**/*"],
-	"include": ["./webapp/**/*"]
+	"exclude": [
+		"./webapp/test/e2e/**/*"
+	],
+	"include": [
+		"./webapp/**/*"
+	]
 }
